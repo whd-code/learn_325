@@ -1,0 +1,218 @@
+:root {
+    font-size: calc(100vw/750);
+    position: relative;
+    
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // overflow: visible;
+    background-color: black;
+}
+img {
+    width: 100%;
+    z-index: -1;
+    // float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header {
+    // clear: both;
+    padding: 20rem 20rem 0 20rem;
+    display: flex;
+    justify-content: space-between;
+    div {
+        display: flex;
+        a {
+            color: #aaa;
+            font-weight: 800;
+            font-size: 25rem;
+            margin: 0 10rem;
+        }
+    }
+    
+}
+
+.find {
+    color: #aaaaaa;
+}
+.concern:hover {
+    color: #fff;
+    .line {
+        margin: 0 auto;
+       width: 60%;
+       background-color: white;
+       padding: 2rem;
+       margin-top: 10rem;
+   }
+   
+}
+.Recommend:hover {
+    color: #fff;
+    .line {
+        margin: 0 auto;
+       width: 60%;
+       background-color: white;
+       padding: 2rem;
+       margin-top: 10rem;
+   }
+   
+}
+main {
+    flex: 1;
+    padding: 0 15rem;
+    position: relative;
+    bottom: 10rem;
+}
+.right {
+    position: absolute;
+    right: 10rem;
+    bottom: 30rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10rem;
+    .low {
+        margin-top: 80rem;
+    }
+    
+    a {
+        margin-top: 30rem;
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        span {
+            font-size: 10rem ;
+            color: #aaa;
+        }
+        .attention {
+            position: absolute;
+            font-size: 10rem;
+            background-color: #e74c3c;
+            color: white;
+            top: 50rem;
+            padding: 5rem;
+            border-radius: 50%;
+        }
+        i {
+            font-size: 50rem;
+        }
+        
+    }
+}
+.music {
+    justify-content: center;
+    background-color: black;
+    padding: 15rem;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    border: solid 2rem white;
+}
+
+.left {
+    color: white;
+    position: absolute;
+    left: 10rem;
+    bottom: 30rem;
+    z-index: 110;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    margin-right: 10rem;
+    div.douyin {
+        margin-top: 30rem;
+        font-size: 20rem;
+    }
+    div {
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+    }
+    div.douyin {
+        margin-top: 20rem;
+        color: #fff;
+        opacity: 0.5;
+        padding-left: 5rem;
+        i {
+
+            font-size: 20rem;
+        }
+    }
+    span {
+        color: #fff;
+        margin-left: 5rem;
+        opacity: 0.5;
+    }
+    div span.id {
+            font-size: 25rem;
+            color: #fff;
+            opacity: 1;
+    }
+}
+footer {
+   
+    padding: 10rem 0;
+    height: 50rem;
+   
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li {
+            a {
+                color: white;
+                list-style: none;
+            } 
+        }
+        li:nth-child(3) {
+            
+            display: flex;
+            align-items: center;
+            margin: 10rem 0;
+            a {
+                display: flex;
+                align-items: center;
+                 color: #555;
+                 div {
+                    padding: 5rem 15rem;
+                    background-color: white;
+                    border-radius: 20%;
+                    border-right: solid 5rem red;
+                    border-left: solid 5rem #0BEBD5;
+                    i {
+                        font-size: 20rem;
+                    } 
+                 }
+            }
+        }
+    }
+}
+div.hot {
+    width: 100%;
+    background-color: #141414;
+    padding: 5rem 0;
+    .hot {
+        font-size: 10rem;
+        letter-spacing:5rem;
+    }
+    
+    position: absolute;
+    left: 10rem;
+    bottom: 70rem;
+    z-index: 110;
+    display: flex;
+    color: yellow;
+   
+    align-items: center;
+}
+
+
+

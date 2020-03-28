@@ -1,0 +1,39 @@
+.logo {
+  color: #17A2B8;
+}
+.button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.1rem;
+}
+.btn-bg {
+  background-color: #17A2B8;
+  color: white;
+}
+.btn-border {
+  border: solid 0.05rem #17A2B8;
+  color: #17A2B8;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.qiandao {
+  padding: 0.2rem 0.5rem;
+  color: #e74c3c;
+  border: solid 0.1rem #e74c3c;
+}
+.qiandao:hover {
+ 
+  color: white;
+  background-color:  #e74c3c;
+}
+
+.fatie {
+  padding: 0.2rem 0.5rem;
+  color: #2ecc71;
+  border: solid 0.05rem #2ecc71;
+}
+.fatie:hover {
+  color: white;
+  background-color:  #2ecc71;
+}

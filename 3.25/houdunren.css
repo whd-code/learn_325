@@ -1,0 +1,81 @@
+@import "commom.css";
+:root {
+  font-size: 15px;
+}
+body {
+  background-color: #F3F3EF;
+}
+nav {
+  background-color: #fff;
+  border-bottom: solid 0.2rem #17A2B8;
+  box-shadow: 0 0.1rem 0.8rem rgba(100, 100, 100, 0.5);
+}
+nav article {
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  padding: 1.3rem 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav article .logo {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 900px) {
+  nav article .more {
+    display: none;
+  }
+}
+nav article input {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  nav article input:checked + section {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  nav article input:checked + section ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav article input:checked + section ul li {
+    margin-top: 0.6rem;
+  }
+  nav article input:checked + section .account {
+    margin-top: 0.6rem;
+  }
+}
+nav article section {
+  display: flex;
+  flex-grow: 1;
+}
+@media screen and (max-width: 900px) {
+  nav article section {
+    display: none;
+    width: 100%;
+  }
+}
+nav article section .account a {
+  font-size: 0.9rem;
+  margin-left: 0.1rem;
+}
+nav article section ul {
+  margin-right: auto ;
+  display: flex;
+}
+nav article section ul li {
+  margin-right: 1.3rem;
+}
+nav article section ul li a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 600;
+}
+nav article section ul li:last-child a {
+  color: #28A745;
+}

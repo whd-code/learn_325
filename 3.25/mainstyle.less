@@ -1,0 +1,112 @@
+.maindiv {
+    background-color: #FFFFFF;
+    border-radius: 0.05rem;
+    // border: solid 1rem black;
+    
+    flex: 1;
+}
+.left-div {
+    max-width: 800px;
+    padding: 2rem 2rem;
+
+}
+.right-div {
+    max-width: 280px;
+    box-sizing: border-box;
+    border: solid 0.1rem #F3F3EF;
+    margin-left: 1rem;
+}
+
+
+main {
+    color: #555;
+    background-color: #F3F3EF;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        .right-div {
+            justify-content: stretch;
+            margin: 0;
+            margin-top: 1rem;
+            min-width: 100%;
+        }
+    }
+    
+   
+    
+    .firstline {
+        color: #555;
+        height: 3rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        a {
+            border: solid 0.1rem #F3F3EF;
+            padding: 0.2rem;
+            color: #555;
+        }
+    }
+    article ul li {
+        height: 5rem;
+        border-bottom: solid 0.1rem #F3F3EF;
+        display: flex;
+        align-items: center;
+        div {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            span{
+                margin-bottom: 0.5rem;
+            }
+            div {
+                display: flex;
+                flex-direction: row;
+                margin: 0;
+                align-items: center;
+            }
+        }
+    }
+    
+}
+span.little {
+    font-size: 0.5rem;
+    margin: 0;
+} 
+.arrive {
+    background-color: #28A745;
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+}
+div.pic_right {
+    margin: 0;
+    img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0.5rem;
+    }
+}
+.right-div section {
+   display: flex;
+   flex-direction:column ;
+   justify-content: space-between;
+    div {
+        padding: 1rem 1rem;
+    
+        display: flex;
+        // flex-wrap: wrap;
+        border-bottom: solid 0.05rem #ddd;
+        &:last-child {
+            border: none;
+        }
+        a {
+            margin-right: 0.8rem;
+        }
+    }
+}
+
